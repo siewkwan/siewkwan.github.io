@@ -1,0 +1,366 @@
+body {background-color: #E8F6EF;}
+h1 {text-align: center;}
+h1 {font-family: Helvetica, sans-serif;}
+p {font-family: Helvetica , sans-serif;}
+p {
+	margin-right: 10%;
+	margin-left: 10%;
+} 
+h1 {color: #4C4C6D;}
+p {color: #4C4C6D;}
+
+button {background-color: white;}
+button {padding: 10px;}
+button:focus {
+	outline: none;
+}
+* {box-sizing:border-box}
+
+#button2 {
+  background-color: #125D98;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  border-color: #125D98;
+  font-family: helvetica, sans-serif;
+ }
+ #button2 {border-radius: 12px;}
+
+#button3 {
+  background-color: #F5A962;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  font-family: helvetica, sans-serif;
+  border-color: #F5A962;
+}
+
+.intro-text {
+  text-align: center;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+#button3 {border-radius: 12px;}
+
+#button4 {
+  background-color:  #FFC947 ;
+  color: white;
+  padding: 24px;
+  font-size: 24px;
+  font-family: helvetica, sans-serif;
+  border-color:  #FFC947 ;
+}
+#button4 {border-radius: 12px;}
+
+#button5 {
+  background-color: white;
+  color: #4C4C6D;
+  font-family: helvetica, sans-serif;
+
+}
+
+#button6 {
+  background-color: white;
+  color: #4C4C6D;
+  font-family: helvetica, sans-serif;
+}
+
+#button7 {
+  background-color: white;
+  color: #4C4C6D;
+  font-family: helvetica, sans-serif;
+}
+
+#button8 {
+ background-color: #185ADB;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  font-family: helvetica, sans-serif;
+  border-color: #185ADB;
+
+ }
+ #button8 {border-radius: 12px;}
+
+
+#button9 {
+  padding: 3px;
+  background-color: lightgray;
+  font-size: 13px;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+  vertical-align: top;
+    position: relative;
+    top: 50%;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers { 
+  display: none;
+}
+
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption Info */
+.Info {
+  color: black;
+  font-size: 16px;
+  padding: 0px 14px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  /*transition: background-color 0.5s ease;*/
+}
+
+.enable, .dots:hover {
+  /*background-color: #717161;*/
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+
+
+video {
+  display: block;
+  margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 265px;
+}
+
+.image-button {
+  width: 30%;
+  display: inline-block;
+}
+
+.image-schools {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#myBtn2 {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#ed2541;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+#myBtn2:hover {
+  background-color: #555;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #F4D160;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 0px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+
+
+table, th, td {
+  font-size: 13px;
+  font-weight: 100;
+  border: none;
+  border-collapse: collapse;
+background-color: #0A1931;
+color: white;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.column {
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 100px;
+}
+.column2 {
+  float: right;
+  align-content: right;
+  width: 20%;
+  padding: 10px;
+  height: 100px;
+}
+
+
+
+
