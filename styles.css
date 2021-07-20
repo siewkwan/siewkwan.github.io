@@ -169,7 +169,7 @@ button:focus {
 
 /* The circles or bullets and indicators */
 .dots {
-  cursor: pointer;
+/*  cursor: pointer;*/
   height: 16px;
   width: 16px;
   margin: 0 3px;
@@ -202,11 +202,21 @@ button:focus {
 }
 
 
-
-video {
+/*.video {
   display: block;
   margin: auto;
+  align-content: center;
 }
+*/
+
+
+/*.iframe {
+  display: block;
+  margin: auto;
+  align-content: center;
+}*/
+
+
 
 .center {
   display: block;
